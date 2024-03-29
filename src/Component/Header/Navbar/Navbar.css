@@ -1,0 +1,11 @@
+.navbar-toggler{
+    border: 0px;
+    padding: 0;
+    padding-right: 11px;
+    position: relative;
+    top: 2px;
+}
+
+.navbar-toggler:focus{
+    box-shadow: none;
+}
