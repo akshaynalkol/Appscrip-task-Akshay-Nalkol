@@ -9,7 +9,7 @@ export default function Navbar() {
                 <div className="container mb-3">
                     <div className='w-25'>
                         <button className='navbar-toggler' data-bs-toggle='collapse' data-bs-target='#navItem'>
-                            <i class="fa-solid fa-bars fa-xl"></i>
+                            <i class="fa-solid fa-bars fa-xl fs-3"></i>
                         </button>
                         <a href='#' className='navbar-brand me-0'>
                             <img src='./Images/logo.png' alt='Logo' />
@@ -17,11 +17,11 @@ export default function Navbar() {
                     </div>
                     <h3 className='fw-bold w-50 text-center mb-0'>LOGO</h3>
                     <div className='w-25 text-end'>
-                        <span><i className="fa-solid fa-magnifying-glass px-sm-2 pe-2"></i></span>
-                        <span><i className="fa-regular fa-heart px-sm-2 pe-2"></i></span>
-                        <span><i className="fa-solid fa-suitcase-rolling px-sm-2"></i></span>
-                        <span><i className="fa-regular fa-user ps-2 px-lg-2 d-none d-sm-inline"></i></span>
-                        <span className='fw-bold ps-2 d-none d-lg-inline'>
+                        <span><i className="fa-solid fa-magnifying-glass px-sm-2 pe-2 align-middle "></i></span>
+                        <span><i className="fa-regular fa-heart px-sm-2 pe-2 align-middle "></i></span>
+                        <span><i className="fa-solid fa-suitcase-rolling px-sm-2 align-middle "></i></span>
+                        <span><i className="fa-regular fa-user ps-2 px-lg-2 d-none d-sm-inline align-middle "></i></span>
+                        <span className='fw-bold ps-2 d-none d-lg-inline align-middle '>
                             ENG<i className="fa-solid fa-caret-down ms-1"></i>
                         </span>
                     </div>
